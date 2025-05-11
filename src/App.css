@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #fa9609;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-bar button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #05029b;
+  color: rgb(255, 149, 1);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-bar button:hover {
+  background-color: #0056b3;
+}
+
+.page-content {
+  padding: 40px;
+  text-align: center;
+}
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button.btn-light {
+  background-color: #f8f9fa;
+  color: #000;
+}
+
+button.btn-dark {
+  background-color: #343a40;
+  color: #fff;
+}
+
+
+body.dark-theme {
+  background-color: #050505;
+  color: #ffffff;
+}
+.Home-page {
+  background-image: url('/public/images/fundalhome.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat; 
+  min-height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: white; 
+  font-size: 3rem;
+}
+
+button {
+  margin-top: 20px;
+}
+
+.Notes-page {
+  background-image: url('/public/images/fundaljucarii.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: white; 
+  font-size: 3rem;
+}
+
+button {
+  margin-top: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  color: rgb(255, 157, 0);
+}
+
+li {
+  margin-bottom: 10px;
+}
+.Tasks-page {
+  background-image: url('/public/images/fundalmancare.jpg'); 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+}
+
+h1, h2 {
+  color: rgb(0, 0, 0); 
+  font-size: 4rem;
+}
+
+button {
+  margin-top: 15px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  color: white;
+}
+
+li {
+  margin-bottom: 10px;
+}
